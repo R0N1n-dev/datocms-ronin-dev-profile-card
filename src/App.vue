@@ -75,11 +75,11 @@
                 {{ data.profile.coordinates.latitude }}° N,
                 {{ data.profile.coordinates.longitude }}° W
               </p>
-              <p class="pt-8 text-sm">
+              <p class="pt-5 text-sm">
                 {{ data.profile.description }}
               </p>
 
-              <div class="pt-12 pb-8">
+              <div class="pt-6 pb-8">
                 <a
                   v-bind:href="`mailto:${data.profile.email}`"
                   class=""
@@ -94,7 +94,7 @@
               </div>
 
               <div
-                class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-center lg:justify-start"
+                class="mt-4 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-center lg:justify-start"
               >
                 <a
                   v-for="profile in data.socials"
