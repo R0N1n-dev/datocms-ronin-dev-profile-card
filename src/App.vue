@@ -17,7 +17,7 @@
         }"
       >
         <div
-          class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-20 lg:my-0"
+          class="max-w-4xl flex items-center h-100vh lg:h-screen flex-wrap mx-auto mt-20 lg:my-0"
         >
           <!--Main Col-->
           <div
@@ -36,7 +36,7 @@
                 />
               </div>
 
-              <h1 class="text-3xl font-bold pt-8 lg:pt-0">
+              <h1 class="text-3xl font-bold pt-5 lg:pt-0">
                 {{ data.profile.name }}
               </h1>
               <div
