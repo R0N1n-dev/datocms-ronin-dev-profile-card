@@ -11,7 +11,7 @@
       }"
     >
       <div
-        class="bg-cover top-0 right-0 bottom-0 left-0"
+        class="bg-cover fixed top-0 right-0 bottom-0 left-0"
         v-bind:style="{
           backgroundImage: `url('${data.theme.backgroundImage.url}')`
         }"
