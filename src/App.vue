@@ -17,7 +17,7 @@
         }"
       >
         <div
-          class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-20 lg:my-0"
+          class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-20 lg:my-0"
         >
           <!--Main Col-->
           <div
