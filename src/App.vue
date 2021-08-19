@@ -2,7 +2,7 @@
   <div v-if="data">
     <div
       v-bind:class="[
-        'bg-cover  font-sans antialiased leading-normal',
+        'bg-cover h-auto font-sans antialiased leading-normal',
         nightMode ? 'text-gray-100' : 'text-gray-900',
         nightMode ? 'text-gray-100' : 'text-gray-900'
       ]"
