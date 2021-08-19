@@ -2,7 +2,7 @@
   <div v-if="data">
     <div
       v-bind:class="[
-        'bg-cover h-auto font-sans antialiased leading-normal',
+        'bg-cover h-100vh font-sans antialiased leading-normal',
         nightMode ? 'text-gray-100' : 'text-gray-900',
         nightMode ? 'text-gray-100' : 'text-gray-900'
       ]"
@@ -17,7 +17,7 @@
         }"
       >
         <div
-          class="max-w-4xl flex items-center h-100vh lg:h-screen flex-wrap mx-auto mt-20 lg:my-0"
+          class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto mt-20 lg:my-0"
         >
           <!--Main Col-->
           <div
